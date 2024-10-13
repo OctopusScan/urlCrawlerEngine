@@ -1,0 +1,193 @@
+[probes]
+  [probes.027d579486a4e58fa1356be4bdad8d7a]
+    data = "GET /nccloud/resources/uap/rbac/login/main/index.html HTTP/1.1\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.07fe3ec413b178f15d2bcd9561a4a37f]
+    data = "GET /login?refer=%2F HTTP/1.1\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.093561eda8a835f5a01738826c77dbf6]
+    data = "GET / HTTP/1.1\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.0fb1053a10d3db901e397ea08071f0f9]
+    data = "GET /myportal/control/main HTTP/1.1\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.2f011fc7b96d46f93dccd19165e4bb16]
+    data = "GET /index.php/login HTTP/1.1\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.32fe128b3ba8b1c065ef3ad50e56cd04]
+    data = "GET /login.html HTTP/1.1\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Site: none\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.3642a0123fd72f23929f6aa36eb2ec6d]
+    data = "GET / HTTP/1.1\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.37336d1c85784bdfb268aeb436eb065f]
+    data = "GET /actuator/gateway/globalfilters HTTP/1.1\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.3efc407d0c252da4c068958a38ca8b94]
+    data = "GET /user/requireLogin HTTP/1.1\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Fetch-User: ?1\r\nSec-Fetch-Mode: navigate\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.577f53d9f4bf8d9da23455d7af363be4]
+    data = "GET /welcome.php HTTP/1.1\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.5945b5e34b10793907e0a36a3004e926]
+    data = "GET /login.jsp HTTP/1.1\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.63dfee46159717a577329b0e6c07f168]
+    data = "GET / HTTP/1.1\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.6e1d38e372ab98ee0644f416235ec8e2]
+    data = "GET (/sess-bin/login_session.cgi) HTTP/1.1\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Site: none\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.6e2c4c3c59397d0806c6490a3368face]
+    data = "POST / HTTP/1.1\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36\r\nContent-Type: application/json\r\n\r\n{\"a\":\""
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.6fb4d14603d08b0a9775f5e43ef368fb]
+    data = "GET /skyeye/home/login HTTP/1.1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.71c80469e32d163b417f82ae5cfe227d]
+    data = "GET /module/login/login.html HTTP/1.1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.727fa32b60244ad8a013aa84c1cfe484]
+    data = "GET /cgi/login.php HTTP/1.1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.768deed275ea412f6f60274bf1a95c71]
+    data = "GET /wp-login.php HTTP/1.1\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.797a1f2bbce8831432e454aa8c43d272]
+    data = "GET /app/kibana HTTP/1.1\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Site: none\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.847fac37ef376c935f55a6631b598aef]
+    data = "GET /login.rsp HTTP/1.1\r\nSec-Fetch-User: ?1\r\nSec-Fetch-Mode: navigate\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.84d37e23f28674c4a08fd1e24de9b298]
+    data = "GET /api/ad/v2/version HTTP/1.1\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Fetch-User: ?1\r\nSec-Fetch-Mode: navigate\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.91460e0998fea8b63143f575510cd972]
+    data = "GET /login.php HTTP/1.1\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.91c52f3fc61db0797ab5212014b3cf9f]
+    data = "GET /login/ HTTP/1.1\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Site: none\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.92b1704e9e82dce7967321c7af5f7723]
+    data = "GET /iam-web/architecture/lib/font/font-awesome/fonts/fontawesome-webfont.woff2 HTTP/1.1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.a0ef65533915d1045dd590488d573c1f]
+    data = "GET /searchblox/search.jsp HTTP/1.1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.b8936c9add84de5819096cca414a761e]
+    data = "GET /pods HTTP/1.1\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.c29b3adfd8eac5e3e5b54d409778c61a]
+    data = "POST /cgi-bin/login\\.cgi HTTP/1.1\r\nContent-Type: application/json\r\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36\r\n\r\n{\"opr\":\"version\"}"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.c6957ea513f755eb02dbd1cae6f9c110]
+    data = "POST /3.0/authService/config HTTP/1.1\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.cdfbb955d5a105e247c3e8dcfa1a8f72]
+    data = "GET /cobbler_web HTTP/1.1\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.e2896f4f56950d76193dc9f458437e24]
+    data = "GET /cgi-bin/login.cgi HTTP/1.1\r\nSec-Fetch-Site: same-origin\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36\r\nAccept-Language: en\r\nContent-Type: Application/X-www-Form\r\nCookies: PHPSESSID=r7n2opbaosv6ljr0l0a43d0ka4\r\nSec-Fetch-Dest: empty\r\nSec-Fetch-Mode: cors\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.ebf183ccbfed7b3afe3c2bdb5bb4431f]
+    data = "GET /adv/js/ad_pop.js HTTP/1.1\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nPriority: u=0, i\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
+  [probes.ff75f00e140f983438f2178868b43e17]
+    data = "GET /cgi-bin/webproc HTTP/1.1\r\nSec-Fetch-Mode: navigate\r\nSec-Fetch-User: ?1\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\r\nAccept-Encoding: gzip, deflate, br\r\nPriority: u=0, i\r\nSec-Ch-Ua-Platform: \"macOS\"\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\r\nSec-Fetch-Dest: document\r\nAccept-Language: zh-CN,zh;q=0.9,ga;q=0.8,en;q=0.7\r\nConnection: close\r\nSec-Ch-Ua: \"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"\r\nSec-Ch-Ua-Mobile: ?0\r\nSec-Fetch-Site: none\r\n\r\n"
+    desc = "请补充描述"
+    format = "HTTP-RESPONSE"
+    timeout = 5
+    write_expression = "http(data,3)"
